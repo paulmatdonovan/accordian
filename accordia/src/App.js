@@ -1,9 +1,11 @@
-import './App.css';
-import Accordian from './components/Accordina';
+import '../src/components/Random-color/index.css';
+import Accordian from './components/Accordian';
+import RandomColor from './components/Random-color';
 
 function App() {
   return (
-    <Accordian />
+    // <Accordian />
+    <RandomColor />
   );
 }
 
